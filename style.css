@@ -1,0 +1,183 @@
+.header {
+    justify-content: space-between;
+}
+
+.Lnav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: black; 
+}
+
+.Rnav-item {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black; 
+    /* flex-direction: row */
+}
+
+ul {
+    list-style-type: none;
+}
+
+#logo {
+    height:23
+    /* width: 108 */
+}
+
+.seasonal-announcement {
+    text-align: center;
+    color: white;
+    background-color: #950C17;
+    padding: 16px 24px;
+    font-size: 16px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#main-template {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#main-img {
+    /* width: 100%; 
+    height: 100%; 
+    position: absolute;
+    will cover the whole page*/
+    display: flex;
+    width: 1800px;
+    height: 500px;
+    margin-top: 0px;
+}
+#card-material {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+  margin-top: 200px;
+  position: absolute;
+  padding-left: 20px;
+  padding-right: 80px;
+  right: 475px;
+}
+
+#ad-tag {
+  background-color: white;
+  color: #950C17;
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+#description {
+  font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+}
+
+.blackfriday {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 325px 0 325px;
+    text-align: center;
+}
+
+.blackfriday-text {
+    font-size: 16px;
+    text-decoration: underline;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.cards {
+    /* border: 2px solid green; */
+    display: grid;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1540px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 45fr 65fr;
+    grid-template-areas:    'one two three four'
+                            't1 t2 t3 t4';
+    grid-gap: '10'
+}
+
+.cardimg {
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+}
+
+#cardimg1{
+    grid-area: one;
+}
+#cardimg {
+    grid-area: two;
+}
+#cardimg {
+    grid-area: three;
+}
+#cardimg {
+    grid-area: four;
+}
+
+
+#cardtext1 {
+    grid-area: t1;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+#cardtext2 {
+    grid-area: t2;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+#cardtext3 {
+    grid-area: t3;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+#cardtext4 {
+    grid-area: t4;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+.card-title {
+    font-size: 24px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.card-descrip {
+    font-size: 16px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-
+}
+
+.redirect {
+    color: #950C17;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.page2 {
+    border: 2px solid red;
+    text-align: center;
+    margin: 0 180px
+}
+
+#page2img {
+    display: flex;
+    width: 800;
+    height:auto;
+}
+
+.for-business {
+    border: 2px solid green;
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
+
+}
