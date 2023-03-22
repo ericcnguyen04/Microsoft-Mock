@@ -179,5 +179,13 @@ ul {
     border: 2px solid green;
     display: grid;
     grid-column: 1fr 1fr 1fr 1fr;
+    
+}
 
+.extra {
+    text-align: center;
+    padding: 10px 20px 100px 40px;
+    border: 15px dashed red;
+    color: blue;
+    margin: 100p`x 500px;
 }
